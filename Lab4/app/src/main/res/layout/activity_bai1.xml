@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Bai1Activity">
+
+    <EditText
+        android:id="@+id/edSo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số a"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/edSo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số b"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/btnBSCNN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BSCNN"
+
+        />
+
+</LinearLayout>
